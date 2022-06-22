@@ -10,14 +10,14 @@ export default [
                 parameter : 'Temperature',
                 icon:  <FaTemperatureHigh /> ,
                 unit: '°C',
-                value : '28' 
+                value : 28 
             },
             {
                 id: 2,
                 parameter : 'Humidity',
                 icon: <BsCloudFill /> ,
                 unit: '%',
-                value : 51
+                value : 33
             },
             {
                 id: 3,

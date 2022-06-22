@@ -57,8 +57,8 @@ footer{
         font-size: 1.8rem;
         padding-top:12px;
         margin-top: 32px;
-        font-family:'Open Sans', sans-serif;
-        font-weight: 600;
+        font-family:'Montserrat', sans-serif;
+        font-weight: 500;
     }
     .smoke-value{
         font-size: 28px;
@@ -75,14 +75,14 @@ footer{
    .smoke{
        font-size: 1.2 rem;
        color: #D8E9A8;
-       font-family:'Open Sans', sans-serif;
-       font-weight: 600;
+       font-family:'Montserrat', sans-serif;
+       font-weight: 500;
    }
    .smoke-alert{
        font-size: 1.2rem;
        color:#FF0000;
-       font-family:'Open Sans', sans-serif;
-       font-weight: 600;
+       font-family:'Montserrat', sans-serif;
+       font-weight: 500;
        align-content:center;
    }
    .red-alert{
