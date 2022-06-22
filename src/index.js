@@ -1,17 +1,46 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom'
+import Header from './header'
+import Footer from './footer'
+import Main from './main'
+import Card from './card'
+import data from  './data'
+import './App.css'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+function Page(){
+    const card = data.map(info =>{
+        return (
+            
+            <Card
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+            key = {info.id}
+            {...info}
+           // style = {info.style}
+            //parameter = {info.weatherCondition}
+            //description = {info.description}
+            //icon = {info.icon}
+            //value = {info.value}
+            //unit ={info.unit}
+
+            />
+        )
+    })
+    
+    
+    
+        return(
+            <div>
+                 <Header />
+                 <div className='body'>
+                <Main />
+                 <section className='cards-list'>
+                 {card}
+                </section> 
+                </div>
+                <Footer />
+            </div>
+
+        );
+}
+ReactDOM.render(<Page />, document.getElementById('root'));
+
+
