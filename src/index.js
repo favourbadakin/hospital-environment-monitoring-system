@@ -6,6 +6,7 @@ import Card from './card'
 import data from  './data'
 import './App.css'
 
+
 function Page(){
     const card = data.map(info =>{
         return (
