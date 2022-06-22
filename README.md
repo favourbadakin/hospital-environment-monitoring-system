@@ -19,6 +19,29 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+ <!--// Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyC-PHo2GSxswb81olx020_bjeg2EJ-PI0g",
+        authDomain: "hospi-5dde6.firebaseapp.com",
+        projectId: "hospi-5dde6",
+        storageBucket: "hospi-5dde6.appspot.com",
+        messagingSenderId: "1048141496163",
+        appId: "1:1048141496163:web:399809246a386df68edd56",
+        measurementId: "G-VK3WGX3X2J"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>-->
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
