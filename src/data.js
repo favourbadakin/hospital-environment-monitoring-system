@@ -10,14 +10,14 @@ export default [
                 parameter : 'Temperature',
                 icon:  <FaTemperatureHigh /> ,
                 unit: '°C',
-                value : 28 
+                value : 29 
             },
             {
                 id: 2,
                 parameter : 'Humidity',
                 icon: <BsCloudFill /> ,
                 unit: '%',
-                value : 33
+                value : 73
             },
             {
                 id: 3,
@@ -29,15 +29,14 @@ export default [
             {
                 id: 4,
                 parameter : 'Oxygen Level',
-                description : 'Monitors the amount of oxygen gas present in the air.',
                 icon: <BsDropletFill />,
                 unit: '%',
-                value : 56
+                value : 23
             },
                 {
                 id: 5,
                 parameter: 'Smoke Detector',
-                description: 'Detects if smoke is present in the air',
                 icon: <AiTwotoneAlert /> ,
-                value: false
-                } ]
+                value: true
+                }
+            ]

@@ -1,5 +1,5 @@
 export default function Main(){
-    const location = 'Children Ward'
+    const location = 'Laboratory'
     const date = new Date();
     const hours = date.getHours();
     let timeOfDay;

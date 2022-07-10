@@ -12,7 +12,7 @@ export default function Card(props){
       <div className='val-box'>
           <span className='value'>{props.value}{props.unit}</span>
          
-          {props.value === true && <div className="smoke-alert"><span className='smoke-value'><i className='red-alert'><MdAddAlert/></i>  Smoke Detected</span></div>}
+          {props.value === true && <div className="smoke-alert"><span className='smoke-value'><i className='red-alert'><MdAddAlert/></i> Smoke Detected</span></div>}
       {props.value === false && <div className="smoke"><span className='smoke-value'>No Smoke Detected</span></div>}
       </div>
      

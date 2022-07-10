@@ -52,11 +52,20 @@ footer{
     padding-top: 8px;
     margin-top: 8px;
 }
-    .value{
+.val-box{
+    margin-top: -8px;
+    padding: 18px ;
+    background-color: #334756;
+    text-align:center;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.value{
+        position:relative;
         color:#D8E9A8;
         font-size: 1.8rem;
         padding-top:12px;
-        margin-top: 32px;
+        /*margin-top: 64px;*/
         font-family:'Montserrat', sans-serif;
         font-weight: 500;
     }
@@ -90,37 +99,22 @@ footer{
    }
    .cards-list {
     display: flex;
-    flex-wrap: nowrap;
-    gap: 24px;;
-    justify-content:center;
+    /*flex-wrap: nowrap;*/
+    flex-direction: row;
+    gap: 24px;
+    /*align-items: center;*/
+    padding-left: 49px;
+    /*justify-content:center;*/
    /*overflow-x: hidden;*/
 }
-@media screen and (min-width: 700px) {
 
-    .cards--list{
-        /*width: 85%;
-        margin-right: 8px;
-        margin-left: 1.7rem;
-        justify-content:center;*/
-        display: grid;
-        grid-template-column: repeat(5, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-        grid-column-gap: 10px;
-        grid-row-gap: 10px;
-        margin-bottom: 24px;
-}
-}
+
   /* Responsive columns - one column layout (vertical) on small screens */
   @media screen and (max-width: 1273px) {
     .cards-list {
-      width: 85%;
-      margin-right: 8px;
-      margin-left: 1.7rem;
-      justify-content:center;
       display: flex;
-      flex-direction: column;
-      margin-bottom: 24px;
-      /*overflow-x: visible;*/
+      flex-direction:column;
+      padding: 0 30px;
     }
 .let-start{
     margin-top: 20px;
@@ -132,10 +126,11 @@ footer{
 .mobile-name{
     display: inline;
     font-size: 1.5rem;
-    margin-left: 8px;
+    margin-left: 12px;
+    padding: 20px 0px;
 }
 .logo{
-    padding :0 30px;
+    padding :0 68px;
     justify-content: center;
 }
 .foo{
@@ -183,14 +178,7 @@ footer{
       width:100%;
       position: relative;
   }
-  .val-box{
-      margin-top: -16px;
-      padding: 20px ;
-      background-color: #334756;
-      text-align:center;
-      border-radius: 0px 0px 20px 20px;
-  }
-  
+ 
 
 
   
