@@ -37,6 +37,6 @@ export default [
                 id: 5,
                 parameter: 'Smoke Detector',
                 icon: <AiTwotoneAlert /> ,
-                value: true
+                value: false
                 }
             ]
