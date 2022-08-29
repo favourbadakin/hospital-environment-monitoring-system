@@ -7,8 +7,7 @@ export default function Header(){
                     <i className='logo-icon props-icon'><FaHandHoldingMedical /></i>
                 <h1 className="name">Hospital Environment Monitoring System</h1>
                 <h2 className="mobile-name">HEMS</h2> 
-                    
-
+                   
                 </div>
 
         );
