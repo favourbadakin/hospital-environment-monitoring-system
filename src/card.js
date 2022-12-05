@@ -1,7 +1,6 @@
 import { MdAddAlert } from "react-icons/md";
 export default function Card(props){
     return(
-        
 
         <section>
        <div className="cd-bg">
