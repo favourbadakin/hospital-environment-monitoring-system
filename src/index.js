@@ -14,6 +14,7 @@ function Page(){
             <Card
 
             key = {info.id}
+                          
             {...info}
            // style = {info.style}
             //parameter = {info.weatherCondition}
